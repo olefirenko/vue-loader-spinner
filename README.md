@@ -47,4 +47,4 @@ Vue.use(LoaderSpinner, {
 ```
 
 ## Credits
-Big thanks to @FrontendSophie for the initial idea of the spinner component.
+Big thanks to [@FrontendSophie](https://github.com/FrontendSophie) for the initial idea of the spinner component.
