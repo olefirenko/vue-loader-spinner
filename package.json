@@ -1,0 +1,24 @@
+{
+  "name": "vue-loader-spinner",
+  "version": "0.0.2",
+  "description": "Vue.js spinner plugin",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://olefirenko@github.com/olefirenko/vue-loader-spinner.git"
+  },
+  "keywords": [
+    "vue",
+    "spinner",
+    "plugin"
+  ],
+  "author": "olefirenko <dmitriy.olefirenko@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olefirenko/vue-loader-spinner/issues"
+  },
+  "homepage": "https://github.com/olefirenko/vue-loader-spinner#readme"
+}
