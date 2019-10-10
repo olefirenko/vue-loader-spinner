@@ -46,5 +46,9 @@ Vue.use(LoaderSpinner, {
 })
 ```
 
+### Showing splinner in specific section
+
+To show a spinner in specific section you can provide a CSS selector to a function `this.$spinner.show('#my-block')`.
+
 ## Credits
 Big thanks to [@FrontendSophie](https://github.com/FrontendSophie) for the initial idea of the spinner component.
