@@ -51,13 +51,21 @@ export default {
     color: {
       type: String,
       default: "#DD4814"
+    },
+    showByDefault: {
+      type: Boolean,
+      default: true
+    },
+    scoped: {
+      type: Boolean,
+      default: false
     }
   },
 
   data() {
     return {
-      isScoped: false,
-      isShown: false
+      isScoped: this.scoped,
+      isShown: this.showByDefault
     };
   },
 
