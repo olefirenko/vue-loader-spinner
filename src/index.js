@@ -1,5 +1,7 @@
 import LoaderSpinner from "./components/Spinner";
 
+export { LoaderSpinner as Spinner };
+
 let instance;
 
 export default {
@@ -18,7 +20,8 @@ export default {
         propsData: {
           size,
           color,
-          background
+          background,
+          showByDefault: false
         },
         el: document.createElement("div")
       });
@@ -27,7 +30,12 @@ export default {
     const spinner = {
       show(selector) {
         if (selector) {
-          document.querySelector(selector).appendChild(instance.$el);
+          if (selector instanceof HTMLDivElement) {
+            selector.appendChild(instance.$el);
+          } else {
+            document.querySelector(selector).appendChild(instance.$el);
+          }
+
           instance.showScoped();
         } else {
           document.querySelector("body").appendChild(instance.$el);
